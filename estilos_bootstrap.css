@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "DancingScript";
+  src: url("..fonts/DancingScript-Regular.otf");
+}
+
+/* Clase para darle estilos al body */
+.music-body {
+background-color: #AA000A;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background-color: white;
+  min-height: 15%;
+  border: none;
+  padding-left: 2%;
+  padding-right: 16%;
+}
+
+/* Clase para darle estilos al logo de la barra */
+.logo-img{
+  width: 8.5rem;
+  padding-top: 1rem;
+  margin-left: 1px;
+}
+
+.img-social{
+  width: 20%;
+  padding-bottom: 5px;
+}
+
+
+
+/* Clase para darle estilos al contenedor principal de menu */
+.container-menu {
+/*  */
+  margin-top: 94px;
+  min-height: 30px;
+}
+
+.container-nav{
+  background-color: rgb(250, 145, 0);
+}
+
+/* Clase para darle estilos a iconos de Redes sociales */
+.redes-sociales{
+margin-top:60px;
+width: 50%;
+padding top: 5px;
+}
+
+.center-menu{
+  background-color: blue;
+  font-style: "DancingScript", "cursive";
+  font-size: 1.5em;
+}
+
+.container-body {
+  margin-top: 1px;
+  background: url(../img_bootstrap/images.jpg);  /*#006278;*/
+  background-attachment: scroll;
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+h1{
+  font-family: "DancingScript", Georgia, Verdana;
+  font-size: 2em;            /* 36px */
+  color: white;
+  margin-left: 15px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px #02010a;
+}
+
+.container-body h1{
+  text-align: center;
+  font-style: italic;
+}
+
+.musica-row{
+  background-color: white;
+  min-height: 50px;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.principal{
+margin-top: 40px;
+
+
+}
+
+h3{
+  font-family: "DancingScript", Georgia, Verdana;
+  font-size: 1.5em;            /* 36px */
+  color: brown;
+  margin-left: 15px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px #02010a;
+}
+
+.principal h3{
+  text-align: center;
+}
+.musica-row p{
+  text-align: justify;
+  font-size: 10px;
+}
+
+.img-beethoven{
+  margin-top: 12px;
+  padding: 5%;
+  margin-bottom: 12px;
+}
+
+.form-group{
+  margin-left: 15%;
+  padding-left: 10px;
+
+.input-group{
+padding-top: 5px;
+
+}
+
+.list-group{
+  padding-top: 5px;
+}
