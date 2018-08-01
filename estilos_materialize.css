@@ -1,3 +1,174 @@
-.propio{
-  font-size: 2.5rem;
+@font-face {
+  font-family: "Bondi_MT";
+  src: url("..fonts/BOD_PSTC.TTF");
+  font-family: "DancingScript-bold";
+  src: url("..fonts/DancingScript-bold.otf");
+}
+
+body{
+  background-color: black;
+
+}
+
+div[class*="master-container"]{
+background: url(../img_materialize/lospenitentes.jpg)left top repeat;
+margin-left: 6%;
+margin-right: 6%;
+}
+
+div[class*="barra-superior"]{
+  min-height: 3.8rem;
+}
+
+div[class*="fila-media"]{
+  max-height: 1.5rem;
+  margin-top:10px;
+}
+
+#botones{
+  width: 100%;
+  padding: 0px !important;
+  font-family: Bondi_MT;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+
+}
+
+div[class*="fila-baja"]{
+  margin-top: 2rem;
+}
+
+h3{
+  width: 100%;
+  font-style: italic;
+  color: white;
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+}
+
+img[class*="imagenbarra"]{
+  margin-top: 2.8rem;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-right: 0.5rem;
+  padding-bottom: -15px;
+  width: 100%;
+}
+
+div[class*="columna-grupos"]{
+  margin-top: 15px;
+}
+
+img[class*="cuadrado"]{
+  width: 2.5rem;
+  height: 2.5rem;
+  /*background-color: red;*/
+  opacity: 0.6;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+div[class*="collection"]{
+  margin-top: 10px;
+}
+
+div[class*="segundo-principal"]{
+  margin-left: 0px !important;
+  padding: 0px;
+}
+
+div[class*="cuarto-principal"]{
+  margin-top: 20px !important;
+  margin-left: 10px !important;;
+  padding: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: white;
+}
+
+#text-acuario{
+  font-family: DancingScript-bold;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: justify;
+  margin-top: 2px;
+  }
+
+h5{
+  text-align: right;
+  text-shadow: 2px;
+  font-size: 1.5rem;
+  font-style: oblique;
+  font-family: Bondi_MT;
+}
+
+#img-acuario{
+margin-top: 0.5rem;
+padding: 0px;
+width: 45%;
+margin-left: 1.2rem;
+}
+
+/*#ico-chip{
+  margin-top: 8px !important;
+  padding: 2px;
+  margin-left: 16% !important;*/
+}
+
+div[class*="img-present"]{
+  margin-left: 30%;
+
+}
+
+div[class*="quinto-principal"]{
+  margin-top: 20px;
+  margin-left: 10px !important;
+  padding: 5px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: white;
+}
+
+h2{
+  text-align: center;
+  text-shadow: 2px;
+  font-size: 1.5rem;
+  font-family: Bondi_MT;
+  color: red;
+  text-decoration: underline;
+}
+
+p[class*="perfil-p"]{
+ font-family: Bondi_MT;
+ font-size: 1rem;
+ font-style: oblique;
+ text-align: justify;
+ border-top: 1px black solid;
+}
+
+div[class*="container-form"]{
+  background-color: #29B7FA;
+  color: white;
+
+}
+
+div[class*="btn-enviar"]{
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0 !important;
+  }
+#botones{
+  width: 25px;
+}
+#img-acuario{
+margin-top: 0.5rem;
+padding: 0px;
+width: 80%;
+margin-left: 1.2rem;
+}
 }

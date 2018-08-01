@@ -88,8 +88,6 @@ h1{
 
 .principal{
 margin-top: 40px;
-
-
 }
 
 h3{
@@ -126,4 +124,13 @@ padding-top: 5px;
 
 .list-group{
   padding-top: 5px;
+}
+
+@media all and (min-width: 767px){
+.redes-sociales{
+    width: 100%;
+}
+  h1{
+   font-size: 0.5em;
+}
 }
