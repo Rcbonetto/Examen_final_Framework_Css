@@ -29,8 +29,6 @@ background-color: #AA000A;
   padding-bottom: 5px;
 }
 
-
-
 /* Clase para darle estilos al contenedor principal de menu */
 .container-menu {
 /*  */
@@ -58,19 +56,15 @@ padding top: 5px;
 .container-body {
   margin-top: 1px;
   background: url(../img_bootstrap/images.jpg);  /*#006278;*/
-  background-attachment: scroll;
-  background-repeat: repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 h1{
   font-family: "DancingScript", Georgia, Verdana;
   font-size: 2em;            /* 36px */
-  color: white;
+  color: brown;
   margin-left: 15px;
   margin-top: 10px;
-  text-shadow: 1px 1px 2px #02010a;
+  text-shadow: 2px 2px 2px #FFE588;
 }
 
 .container-body h1{
@@ -117,10 +111,6 @@ h3{
   margin-left: 15%;
   padding-left: 10px;
 
-.input-group{
-padding-top: 5px;
-
-}
 
 .list-group{
   padding-top: 5px;

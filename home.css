@@ -1,11 +1,98 @@
-.logo-img{
-  width: 30%;
+div{
+  border: 1px solid black;
+  padding: 2px;
 }
 
-img{
-  max-height: 129px;
+body{
+  background-color: black;
 }
 
-div.secondary.callout.text-center{
-  min-height: 242px;
+div[class*="primer-contenedor"]{
+  background: url(../img_foundation/fondo.jpg);
+  margin-left: 8.33%;
+  margin-right: 8.33%;
+}
+
+div[class*="segundo-contenedor"]{
+  background-color: #7F89A1;
+  /*opacity: 0.3;*/
+}
+
+div[class*="tercer-contenedor"]{
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+}
+
+div[class*="cuarto-contenedor"]{
+  border-right: 2px solid white;
+  padding-right: 0.5rem;
+}
+
+#titulo-pcipal{
+  font-size: 1.75rem;
+  color: white;
+  text-shadow: 2px 2px 2px #F0F0F0;
+}
+
+#p-intro{
+  font-size: 0.95rem;
+  color: white;
+  text-shadow: 1px 1px 1px #F0F0F0;
+  font-style: italic;
+}
+
+div[class*="contenedor-izq"]{
+  background-color: #FEE9F7;
+   padding-right: 0.3rem;
+}
+
+.contenedor-izq p{
+  color: #D55DAA;
+  font-size: 0.9rem;
+}
+
+.contenedor-izq h3{
+  font-size: 1.15rem;
+}
+
+#img-principal{
+ border: 1px solid grey;
+ padding: 2px;
+ background-color: white;
+}
+
+#p-asado{
+  color: black;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid grey;
+}
+
+.button-format{
+  margin-top: 0px;
+  padding: 0px;
+  max-height: 2.8rem;
+}
+
+#img{
+  width: 2rem;
+
+}
+
+.contenedor-izq-do{
+  margin-top: 1.5rem;
+}
+
+.contenedor-izq-do p{
+color: #D55DAA;
+font-size: 0.9rem;
+}
+
+.contenedor-izq-do h3{
+  font-size: 1.15rem;
+}
+
+@media (max-width: 600px) {
+  #p-asado{
+    font-size: 0.7rem;
+  }
 }

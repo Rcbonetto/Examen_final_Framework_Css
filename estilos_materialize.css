@@ -11,13 +11,14 @@ body{
 }
 
 div[class*="master-container"]{
-background: url(../img_materialize/lospenitentes.jpg)left top repeat;
+background-color: #8819F8;
 margin-left: 6%;
 margin-right: 6%;
 }
 
 div[class*="barra-superior"]{
   min-height: 3.8rem;
+  max-height: 11rem;
 }
 
 div[class*="fila-media"]{
@@ -38,22 +39,37 @@ div[class*="fila-baja"]{
   margin-top: 2rem;
 }
 
+div[class*="fila-med"]{
+  margin-top: 1px;
+  background-color: grey;
+}
+h3[class*="fila-med"]{
+  width: 100%;
+  font-style: italic;
+  color: white;
+  padding-top: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+
+}
+
 h3{
   width: 100%;
   font-style: italic;
   color: white;
   padding-top: 0.5rem;
   margin-top: 2rem;
+  margin-left: 2rem;
+
 }
 
 img[class*="imagenbarra"]{
-  margin-top: 2.8rem;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  margin-right: 0.5rem;
-  padding-bottom: -15px;
-  width: 100%;
-}
+  margin-top: 6.5rem;
+  padding-top: 0.5rem;
+  border-radius: 15px;
+  margin-left: 0.5rem;
+  width: 18rem;
+  }
 
 div[class*="columna-grupos"]{
   margin-top: 15px;
@@ -62,7 +78,7 @@ div[class*="columna-grupos"]{
 img[class*="cuadrado"]{
   width: 2.5rem;
   height: 2.5rem;
-  /*background-color: red;*/
+  background-color: orange;
   opacity: 0.6;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -72,6 +88,11 @@ img[class*="cuadrado"]{
 
 div[class*="collection"]{
   margin-top: 10px;
+}
+
+div[class*="collection_img"]{
+  margin-right: 0.3rem;
+  padding: 0px;
 }
 
 div[class*="segundo-principal"]{
@@ -118,14 +139,13 @@ margin-left: 1.2rem;
 }
 
 div[class*="img-present"]{
-  margin-left: 30%;
+
 
 }
 
 div[class*="quinto-principal"]{
   margin-top: 20px;
-  margin-left: 10px !important;
-  padding: 5px;
+  margin-left: 30px !important;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   background-color: white;
@@ -154,9 +174,6 @@ div[class*="container-form"]{
 
 }
 
-div[class*="btn-enviar"]{
-  text-align: right;
-}
 
 @media (max-width: 600px) {
   .columna-grupos{
@@ -171,4 +188,18 @@ padding: 0px;
 width: 80%;
 margin-left: 1.2rem;
 }
+div[class*="primero-principal"]{
+  margin-top: 2px;
+}
+div[class*="quinto-principal"]{
+  margin-top: 20px;
+  margin-left: 10px !important;
+}
+img[class*="imagenbarra"]{
+  margin-top: 4rem;
+  padding-top: 0.5rem;
+  border-radius: 15px;
+  margin-left: 0.5rem;
+  width: 70rem;
+  }
 }
