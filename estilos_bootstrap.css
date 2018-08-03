@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "DancingScript";
   src: url("..fonts/DancingScript-Regular.otf");
@@ -6,6 +7,10 @@
 /* Clase para darle estilos al body */
 .music-body {
 background-color: #AA000A;
+}
+
+.navegar{
+  max-height: 12rem;
 }
 
 /* Clase para darle estilos a la barra de navegacion */
@@ -43,7 +48,7 @@ background-color: #AA000A;
 /* Clase para darle estilos a iconos de Redes sociales */
 .redes-sociales{
 margin-top:60px;
-width: 50%;
+width: 20rem;
 padding top: 5px;
 }
 
